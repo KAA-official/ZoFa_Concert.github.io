@@ -1,4 +1,4 @@
-//______MENU______
+//______КНОПКА______
 
 const MENU_LINKS = document.querySelectorAll('.pay__button');
 
