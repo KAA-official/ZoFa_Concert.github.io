@@ -61,6 +61,7 @@ section {
     font-weight: 700;
     font-size: 65px;
     padding-top: 275px;
+    color: rgb(255, 255, 255);
 }
 
 .hero__second-text {
@@ -68,6 +69,7 @@ section {
     font-size: 45px;
     padding-top: 197px;
     padding-bottom: 30px;
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 768px) {
@@ -132,6 +134,7 @@ section {
     padding: 20px 43px;
     background-color: #ffffff;
     border-radius: 80px;
+    box-shadow: 10px 10px 19px 7px;
 
     font-weight: 700;
     font-size: 40px;
@@ -167,6 +170,7 @@ section {
         padding: 10px 23px;
         border-radius: 50px;
         font-size: 25px;
+        box-shadow: 5px 5px 10px 5px;
     }
 
     .contacts__social {
@@ -194,7 +198,7 @@ section {
     font-size: 40px;
     padding: 15px;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #E2E2E2;
     border-radius: 50px;
     margin: 80px 30px 15px 30px;
 }
@@ -252,7 +256,7 @@ section {
     font-size: 40px;
     padding: 15px;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #E2E2E2;
     border-radius: 50px;
     margin:  80px 30px 15px 30px;
 }
@@ -299,7 +303,7 @@ section {
     font-size: 40px;
     padding: 15px;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #E2E2E2;
     border-radius: 50px;
     margin:  80px 30px 15px 30px;
 }
@@ -310,18 +314,28 @@ section {
     height: 647.94px;
 }
 
-.fourth__text {
+.fourth__text1 {
     font-weight: 300;
     font-size: 32px;
-    line-height: 36px; 
-    padding: 15px 70px;
+    padding: 15px 70px 0px 70px;
+}
+
+.fourth__text2 {
+    font-weight: 300;
+    font-size: 32px;
+    padding: 0px 70px 0px 70px;
+}
+
+.fourth__numer {
+    font-weight: 300;
+    font-size: 33px;
 }
 
 @media (max-width: 768px) {
     .fourth__content {
         background-image: url('fourth3.png');
         border-radius: 15px;
-        height: 290px;
+        height: 305px;
     }
 
     .fourth__title {
@@ -333,14 +347,23 @@ section {
 
     .fourth__info {
         border-radius: 15px;
-        height: 290px;
+        height: 305px;
     }
 
-    .fourth__text {
+    .fourth__text1 {
         font-size: 15px;
-        line-height: 15px; /*нужно для растояния между строками line-height - font-size*/
-        padding: 10px 20px;
-    } 
+        padding: 10px 20px 0px 20px;
+    }
+    
+    .fourth__text2 {
+        font-size: 15px;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    .fourth__numer {
+        font-size: 15px;
+        color: #ffffff;
+    }
 }
 
 @media (max-width: 768px) {
