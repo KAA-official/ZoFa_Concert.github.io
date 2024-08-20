@@ -46,7 +46,7 @@ section {
 /*________HERO________*/
 
 .hero {
-    background-image: url('assets/hero2.png');
+    background-image: url('hero2.png');
     height: 666.8px;
 }
 
@@ -72,7 +72,7 @@ section {
 
 @media (max-width: 768px) {
     .hero {
-        background-image: url('assets/hero3.png');
+        background-image: url('hero3.png');
         height: 339px;
     }
 
@@ -120,7 +120,7 @@ section {
 /*________PAY________*/
 
 .pay {
-    background-image: url('assets/pay2.png');
+    background-image: url('pay2.png');
     height: 622.51px;
     border-radius: 50px;
 }
@@ -156,7 +156,7 @@ section {
 
 @media (max-width: 768px) {
     .pay {
-        background-image: url('assets/pay3.png');
+        background-image: url('pay3.png');
         height: 331px;
         border-radius: 15px;
     }
@@ -184,7 +184,7 @@ section {
 /*________SECOND________*/
 
 .second__content {
-    background-image: url('assets/second2.png');
+    background-image: url('second2.png');
     height: 616.77px;
     border-radius: 50px;
 }
@@ -214,7 +214,7 @@ section {
 
 @media (max-width: 768px) {
     .second__content {
-        background-image: url('assets/second3.png');
+        background-image: url('second3.png');
         height: 316px;
         border-radius: 50px;
     }
@@ -242,7 +242,7 @@ section {
 /*________THIRD________*/
 
 .third__content {
-    background-image: url('assets/third2.png');
+    background-image: url('third2.png');
     height: 537.56px;
     border-radius: 50px;
 }
@@ -266,7 +266,7 @@ section {
 
 @media (max-width: 768px) {
     .third__content {
-        background-image: url('assets/third3.png');
+        background-image: url('third3.png');
         height: 206px;
         border-radius: 15px;
     }
@@ -289,7 +289,7 @@ section {
 /*________FOURTH________*/
 
 .fourth__content {
-    background-image: url('assets/fourth2.png');
+    background-image: url('fourth2.png');
     height: 647.94px;
     border-radius: 50px;
 }
@@ -319,7 +319,7 @@ section {
 
 @media (max-width: 768px) {
     .fourth__content {
-        background-image: url('assets/fourth3.png');
+        background-image: url('fourth3.png');
         border-radius: 15px;
         height: 290px;
     }
