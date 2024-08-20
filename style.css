@@ -315,7 +315,6 @@ section {
     font-size: 32px;
     line-height: 36px; 
     padding: 15px 70px;
-    text-decoration: none; /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 }
 
 @media (max-width: 768px) {
