@@ -313,8 +313,9 @@ section {
 .fourth__text {
     font-weight: 300;
     font-size: 32px;
-    line-height: 36px; /*нужно для растояния между строками line-height - font-size (36-32)*/
+    line-height: 36px; 
     padding: 15px 70px;
+    text-decoration: none; /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 }
 
 @media (max-width: 768px) {
