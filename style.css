@@ -369,6 +369,10 @@ section {
     .fourth__numer {
         font-size: 15px;
     }
+
+    a[href^="tel"] {
+        color: inherit; 
+    }
 }
 
 @media (max-width: 768px) {
