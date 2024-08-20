@@ -24,12 +24,6 @@ p {
     line-height: 28px;
 }
 
-/* базавое правило для картинок 
-img {
-    width: 912px;
-    height: 650.4px;
-}*/
-
 .container {
     width: 100%;
     max-width: 935px;
@@ -41,8 +35,18 @@ section {
     margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+    .container {
+        max-width: 393px;
+        margin: 0 auto;
+    }
+}
+
+
+/*________HERO________*/
+
 .hero {
-    background-image: url('hero2.png');
+    background-image: url('assets/hero2.png');
     height: 666.8px;
 }
 
@@ -66,6 +70,32 @@ section {
     padding-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+    .hero {
+        background-image: url('assets/hero3.png');
+        height: 339px;
+    }
+
+    .hero__first-text {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .hero__title {
+        font-size: 33px;
+        padding-top: 135px;
+    }
+
+    .hero__second-text {
+        font-size: 22px;
+        padding-top: 103px;
+        padding-bottom: 15px;
+    }
+}
+
+
+/*________INFO________*/
+
 .info__text {
     background: rgba(136, 136, 140, 0.76);
     border-radius: 50px;
@@ -76,15 +106,28 @@ section {
     padding: 15px;
 }
 
+@media (max-width: 768px) {
+    .info__text {
+        border-radius: 15px;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+}
+
+
+/*________PAY________*/
+
 .pay {
-    background-image: url('pay2.png');
+    background-image: url('assets/pay2.png');
     height: 622.51px;
     border-radius: 50px;
 }
 
 .pay__button {
     margin-top: 150px;
-    margin-bottom:199px;
+    margin-bottom: 199px;
     display: inline-flex;
     padding: 20px 43px;
     background-color: #ffffff;
@@ -110,24 +153,38 @@ section {
 .soc {
     cursor: pointer;
 }
-/*.icons {
-    display: inline-flex
-}
-    
-.icons__item {
-    display: flex;
-    text-align: center;
-    font-size: 80px;
-    margin-right: 128px;
-    cursor: pointer;
-}   
 
-.icons__item:last-child {
-    margin-right: 0px; 
-} */
+@media (max-width: 768px) {
+    .pay {
+        background-image: url('assets/pay3.png');
+        height: 331px;
+        border-radius: 15px;
+    }
+
+    .pay__button {
+        margin-top: 100px;
+        margin-bottom: 111px;
+        padding: 10px 23px;
+        border-radius: 50px;
+        font-size: 25px;
+    }
+
+    .contacts__social {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        transform: scale(0.6); 
+    }
+    
+    .contacts__social-link {
+        margin-right: 72px;
+    }
+}
+
+
+/*________SECOND________*/
 
 .second__content {
-    background-image: url('second2.png');
+    background-image: url('assets/second2.png');
     height: 616.77px;
     border-radius: 50px;
 }
@@ -139,7 +196,7 @@ section {
     color: #000000;
     background-color: #ffffff;
     border-radius: 50px;
-    margin:  80px 30px 15px 30px;
+    margin: 80px 30px 15px 30px;
 }
 
 .second__info {
@@ -155,8 +212,37 @@ section {
     padding: 15px 100px;
 }
 
+@media (max-width: 768px) {
+    .second__content {
+        background-image: url('assets/second3.png');
+        height: 316px;
+        border-radius: 50px;
+    }
+
+    .second__title {
+        font-size: 25px;
+        padding: 5px;
+        border-radius: 15px;
+        margin: 43px 15px 15px 15px;
+    }
+
+    .second__info {
+        border-radius: 15px;
+        height: 316px;
+    }
+
+    .second__text {
+        font-size: 18px;
+        line-height: 18px; /*нужно для растояния между строками line-height - font-size*/
+        padding: 5px 20px;
+    }
+}
+
+
+/*________THIRD________*/
+
 .third__content {
-    background-image: url('third2.png');
+    background-image: url('assets/third2.png');
     height: 537.56px;
     border-radius: 50px;
 }
@@ -178,8 +264,32 @@ section {
     padding: 15px 100px;
 }
 
+@media (max-width: 768px) {
+    .third__content {
+        background-image: url('assets/third3.png');
+        height: 206px;
+        border-radius: 15px;
+    }
+
+    .third__title {
+        font-size: 25px;
+        padding: 5px;
+        border-radius: 15px;
+        margin: 43px 15px 15px 15px;
+    }
+
+    .third__text {
+        font-size: 16px;
+        line-height: 17px; /*нужно для растояния между строками line-height - font-size*/
+        padding: 10px 20px;
+    }
+}
+
+
+/*________FOURTH________*/
+
 .fourth__content {
-    background-image: url('fourth2.png');
+    background-image: url('assets/fourth2.png');
     height: 647.94px;
     border-radius: 50px;
 }
@@ -205,4 +315,37 @@ section {
     font-size: 32px;
     line-height: 36px; /*нужно для растояния между строками line-height - font-size (36-32)*/
     padding: 15px 70px;
+}
+
+@media (max-width: 768px) {
+    .fourth__content {
+        background-image: url('assets/fourth3.png');
+        border-radius: 15px;
+        height: 290px;
+    }
+
+    .fourth__title {
+        font-size: 25px;
+        padding: 5px;
+        border-radius: 15px;
+        margin: 43px 15px 15px 15px;
+    } 
+
+    .fourth__info {
+        border-radius: 15px;
+        height: 290px;
+    }
+
+    .fourth__text {
+        font-size: 15px;
+        line-height: 15px; /*нужно для растояния между строками line-height - font-size*/
+        padding: 10px 20px;
+    } 
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 43px;
+        margin-bottom: 23px;
+    }
 }
