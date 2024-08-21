@@ -337,6 +337,10 @@ section {
     font-size: 33px;
 }
 
+a[href^="tel"] {
+    color: inherit; 
+}
+
 @media (max-width: 768px) {
     .fourth__content {
         background-image: url('fourth3.png');
