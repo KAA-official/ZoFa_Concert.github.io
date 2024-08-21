@@ -118,6 +118,12 @@ section {
     }
 }
 
+@media (max-width: 375px) {
+    .info__text {
+        font-size: 16px;
+    }
+}
+
 
 /*________PAY________*/
 
@@ -190,6 +196,18 @@ section {
     }
 }
 
+@media (max-width: 394px) {   
+    .contacts__social-link {
+        margin-right: 52px;
+    }
+}
+
+@media (max-width: 359px) {
+    .contacts__social-link {
+        margin-right: 32px;
+    }
+}
+
 
 /*________SECOND________*/
 
@@ -226,7 +244,7 @@ section {
     .second__content {
         background-image: url('second3.png');
         height: 316px;
-        border-radius: 50px;
+        border-radius: 15px;
     }
 
     .second__title {
@@ -243,8 +261,20 @@ section {
 
     .second__text {
         font-size: 18px;
-        line-height: 18px; /*нужно для растояния между строками line-height - font-size*/
+        line-height: 18px; 
         padding: 5px 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .second__text {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 359px) {
+    .second__text {
+        font-size: 16px;
     }
 }
 
@@ -290,8 +320,20 @@ section {
 
     .third__text {
         font-size: 16px;
-        line-height: 17px; /*нужно для растояния между строками line-height - font-size*/
+        line-height: 17px; 
         padding: 10px 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    .third__text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 359px) {
+    .third__text {
+        font-size: 14px;
     }
 }
 
@@ -339,7 +381,7 @@ section {
 
 a[href^="tel"] {
     color: inherit; 
-}
+  }
 
 @media (max-width: 768px) {
     .fourth__content {
@@ -376,7 +418,7 @@ a[href^="tel"] {
 
     a[href^="tel"] {
         color: inherit; 
-    }
+      }
 }
 
 @media (max-width: 768px) {
